@@ -1,0 +1,1 @@
+Camada responsável por fazer conexões com a infraestrutura de banco de dados da aplicação

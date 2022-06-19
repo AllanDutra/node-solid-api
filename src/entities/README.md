@@ -1,0 +1,1 @@
+A pasta "entities" representa a pasta "models" do modelo MVC, chamada de entities porque model já traz a ideia de uma tabela no banco e nem sempre algumas entidades são tabelas 

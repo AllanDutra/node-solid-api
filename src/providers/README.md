@@ -1,0 +1,1 @@
+Camada para representar "repositórios" externos, como envio de e-mails, api externa, algo desse sentido
