@@ -1,50 +1,43 @@
-========== INICIANDO A APLICAÇÃO ==========
+## 📚 Node S.O.L.I.D API
+<p>This repository was developed following the Rocketseat video <i><a>https://www.youtube.com/watch?v=vAV4Vy4jfkc&ab_channel=Rocketseat</a></i> in order to learn how to follow S.O.L.I.D concepts in a Node API</p>
 
-yarn init -y
+## 📫 Routes
 
-yarn add express
+<strong>POST</strong> — "/users",
 
-yarn add typescript ts-node-dev -D
+body:
 
-yarn tsc --init (Depois mudar versão do ES, strict: false, allowJs: true, include dos arquivos .ts)
+`{`
+	`"name": string,`
+	`"email": string,`
+	`"password": string,`
+`}`
 
-yarn add @types/express -D
+## 🌐 Status
+<p>Finished project ✅</p>
 
-========== CONFIGURAÇÕES DE ÍCONES ==========
+## 🧰 Prerequisites
+<p>Node JS</p>
 
-acessar "F1" -> json
+## 🔧 Installation
+`$ git clone https://github.com/AllanDutra/node-solid-api.git`
 
-colar:
+`$ cd node-solid-api`
 
-"material-icon-theme.folders.associations": {
-    "adapters": "contract",
-    "grpc": "pipe",
-    "kube": "kubernetes",
-    "main": "lib",
-    "websockets": "pipe",
-    "implementations": "core",
-    "protos": "pipe",
-    "entities": "class",
-    "kafka": "pipe",
-    "use-cases": "functions",
-    "migrations": "tools",
-    "schemas": "class",
-    "useCases": "functions",
-    "eslint-config": "tools",
-    "typeorm": "database",
-    "_shared": "shared",
-    "mappers": "meta",
-    "fakes": "mock",
-    "modules": "components",
-    "subscribers": "messages",
-    "domain": "class",
-    "protocols": "contract",
-    "infra": "app",
-    "view-models": "views",
-    "presentation": "template",
-    "dtos": "typescript",
-    "http": "container",
-    "providers": "include",
-    "factories": "class",
-    "repositories": "mappings"
-},
+`$ npm install`
+
+`$ npm start`
+
+<strong>Node server listenning at http://localhost:3333/!</strong>
+
+## 🔨 Tools used
+
+<div>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="80" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="80" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="80" />
+</div>
+
+<hr>
+
+Developed with 💜 by Allan Dutra!
