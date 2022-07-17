@@ -3,15 +3,17 @@
 
 ## 📫 Routes
 
-<strong>POST</strong> — "/users",
+<strong>POST</strong> — "/users" 
+
+<i>Create a new user</i>
 
 body:
 
 ```
 {
-   "name": string,
-   "email": string,
-   "password": string
+	"name": string,
+	"email": string,
+	"password": string,
 }
 ```
 
